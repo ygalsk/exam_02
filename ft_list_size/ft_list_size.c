@@ -8,8 +8,7 @@ int	ft_list_size(t_list *begin_list)
 {
 	int i = 0;
 
-	while (begin_list)
-	{	
+	while (begin_list) {
 		begin_list = begin_list->next;
 		i++;
 	}

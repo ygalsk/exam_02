@@ -17,3 +17,11 @@ char *ft_strrev(char *str)
 	}
 	return str;
 }
+
+int main(int argc, char **argv)
+{
+	(void)argc;
+	char *res = ft_strrev(argv[1]);
+	printf("%s", res);
+	return 0;
+}

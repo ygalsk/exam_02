@@ -1,6 +1,6 @@
 unsigned int    lcm(unsigned int a, unsigned int b)
 {
-	unsigned int n;
+	unsigned int	n;
 
 	if (a == 0 || b == 0)
 		return 0;
